@@ -1,0 +1,56 @@
+* {
+    margin:5px;
+    padding:5px;
+
+}
+header
+{
+    text-align: center;
+    margin-top: 20px;
+
+}
+body{
+    background: linear-gradient(to right, #bf9215, #29bf15)
+}
+label{
+    display:block
+}
+span{
+    color:red
+}
+input[type="text"], input[type="number"], input[type="email"],
+input[type="tel"], input[type="password"], input[type="url"],
+input[type="textarea"]
+{
+    height: 30x;
+    width:30%;
+    border-radius: 10px;
+}
+    
+ input[type="pincode"]
+ {
+    border-radius: 10px;
+ }
+select{
+    height: 30px;
+    width: 31%;
+    color:blue
+}
+textarea
+{
+    width:30%;
+    margin:0;
+
+}
+form{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+input[type="submit"]
+{
+background-color: RGB(172, 115, 0);
+border-radius: 15px;
+padding:10px;
+color:aliceblue;
+font-weight: bold;
+}

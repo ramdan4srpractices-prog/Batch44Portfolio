@@ -3,9 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Construction site</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header>
+        <h1> Sathyam Solutions</h1>
+        <h3><u>Customer Inquiry</u></h3>
+    </header>
+    <br>
+    <main>
+        <center><form action="success.html" method="POST">
+            <label><span>*</span>Your name </label>
+            <input type="text">
+        
+            <label> Password</label>
+            <input type="password" required title="atleast a CAP letter, a small letter and must be 8 digits"
+            pattern="[A-Za-z]{8}">
+           
+            <label><span>*</span>Mobile number</label>
+            <input type="tel" placeholder="enter your mobile number" title="10 numbers" pattern="\d{10}">
+            <label> email id</label>
+            <input type="email">
+            <label> Gender</label>
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender">Female
+            <label> How did you hear about us</label>
+            <input type="checkbox" name="heard">Youtube
+            <input type="checkbox" name="heard">Instagram
+            <input type="checkbox" name="heard">X
+            <input type="checkbox" name="heard">Friends
+            <input type="checkbox" name="heard">Google search
+            <input type="checkbox" name="heard">Street ads
+            <label> City</label>
+            <select>
+                <option> Choose your city </option>
+                <option> Chennai </option>
+                <option> Madurai </option>
+                <option> Trichy </option>
+                <option> Coimbatore </option>
+                <option> Salem </option>
+                <option> Tirunelveli </option>
+                <option> Velankanni </option>
+            </select>
+            <label>PINCODE</label>
+            <input type="pincode" pattern="[1-9][0-9]{5}" maxlength="6">
+            <label>Website</label>
+            <input type="url">
+            <label><span>*</span>Budget</label>
+            <input type="range" id="budget" min="100000" max="250000000" oninput="this.nextElementSibling.value=this.value">
+            <output>50</output>
+            <br>
+            <label>Appointment</label>
+            <input type="date">
+            <label>Our in-person meet spot</label>
+            <textarea rows="5"></textarea><br>
+            <input type="submit" value="REQUEST A CALL BACK">
+                </form></center>
+    </main>
 </body>
 </html>
